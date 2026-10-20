@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Подробная страница проекта в портфолио kelan">
+    <title>Проект — kelan</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="projects.js"></script>
+    <script defer src="project.js"></script>
+</head>
+
+<body>
+    <header class="topbar"><a class="logo" href="index.html#home"><span class="brand-mark" aria-hidden="true"></span>kelan</a>
+        <nav class="nav" id="nav"><a href="index.html#about">Обо мне</a><a href="index.html#projects">Проекты</a><a
+                href="index.html#gallery">Галерея</a><a href="index.html#contacts">Контакты</a></nav><button
+            class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">☰</button><button
+            class="theme-toggle" aria-label="Переключить тему">☾</button>
+    </header>
+    <main class="project-page">
+        <section class="detail-hero"><a class="detail-back" href="index.html#projects">← Вернуться к проектам</a>
+            <div class="kicker" id="detail-category"></div>
+            <h1 id="detail-title">Проект</h1>
+            <p id="detail-summary"></p><span class="kicker" id="detail-label"></span>
+        </section>
+        <div class="detail-body">
+            <div id="detail-cover" class="detail-cover"></div>
+            <div class="detail-grid" style="margin-top:30px">
+                <article class="detail-panel">
+                    <h2>О ПРОЕКТЕ</h2>
+                    <p id="detail-task"></p>
+                    <h2>ПРОЦЕСС</h2>
+                    <p id="detail-process"></p>
+                    <h2>РЕЗУЛЬТАТ</h2>
+                    <p id="detail-result"></p>
+                </article>
+                <aside class="detail-panel">
+                    <h2>ИНСТРУМЕНТЫ</h2>
+                    <p id="detail-tools"></p>
+                    <h2>СТАТУС</h2>
+                    <p id="detail-status"></p>
+                </aside>
+            </div>
+            <section class="detail-materials">
+                <h2>МАТЕРИАЛЫ ПРОЕКТА ✳</h2>
+                <p class="section-intro">Здесь можно разместить все изображения, видео и другие материалы проекта.</p>
+                <div id="detail-media" class="material-grid"></div>
+            </section><a class="button" href="index.html#projects">← Все проекты</a>
+        </div>
+    </main>
+    <footer><span class="logo">kelan ✳</span>
+        <p>Александра Попова · Портфолио</p>
+        <p>Создано с помощью ChatGPT. JavaScript: страницы проектов, тема, меню и галерея.</p>
+    </footer>
+</body>
+
+</html>
